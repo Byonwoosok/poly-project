@@ -1,0 +1,30 @@
+/* ใช้สีพื้นหลังที่คุณต้องการ */
+body {
+  background-color: #1d3f75; /* สีพื้นหลังของทั้งแอป */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* ปรับแต่งให้ main สวยงาม */
+main {
+  background-color: #1d3f75; /* พื้นหลังของเนื้อหา */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงาเพื่อให้ดูมีมิติ */
+  padding: 20px;
+  border-radius: 10px; /* ขอบโค้ง */
+  margin: 20px auto;
+  max-width: 1200px; /* กำหนดความกว้างสูงสุด */
+}
+
+/* เพิ่ม transition ให้การเปลี่ยนแปลงราบรื่น */
+main:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* เพิ่มสีให้ Footer */
+footer {
+  background-color: #10316B; /* สีฟ้าเข้ม */
+  color: #1d3f75;
+  padding: 10px;
+  text-align: center;
+}
